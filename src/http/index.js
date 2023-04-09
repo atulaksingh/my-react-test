@@ -12,6 +12,3 @@ export const getproduct = () => API.get(`/products`);
 
 export const getColor = (id) => API.get(`/colors/${id}`);
 export const getMaterial = (id) => API.get(`/material/${id}`);
-
-export const getAllColor = (id) => API.get(`/colors`);
-export const getAllMaterial = (id) => API.get(`/material`);

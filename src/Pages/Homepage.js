@@ -98,6 +98,9 @@ function Homepage() {
             </div>
           </div>
         </div>
+        <div>
+          <Footer />
+        </div>
       </div>
     </>
   );
